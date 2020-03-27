@@ -1,0 +1,29 @@
+@font-face{font-family:Magistral;src:url(../font/magistral/MagistralTT.ttf);}
+body, table, p, h1, h2, h3, h4{font-family:Magistral !important;}
+div#wrapper {
+    overflow-x: hidden;
+}
+span{
+    color:#FEB238; /*задаем цвет для элементов span*/
+} 
+div#c-e-1z {
+    text-shadow: 1px 1px 5px #000;
+    font-weight: 500;
+}
+.carousel-caption.home{bottom:30%;}
+.carousel-caption.home img {
+    width: 255px; /*ширина картинки*/
+    float: left; /*позиционируем элемент по левому краю*/
+    padding-right: 30px; /*отступ для элементов, которые находятся правее*/
+}
+p.hs1 {
+    font-size: 27px; /*размер шрифта*/
+    text-transform: uppercase; /*делаем все буквы большими*/
+    padding-top: 30px; /*отступ от верха*/
+}
+p.hs2 {
+    font-size: 30px; /*размер шрифта*/
+}
+
+
+

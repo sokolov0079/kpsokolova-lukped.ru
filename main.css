@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	width: auto;
+	height: auto;
+	font-family: 'Poppins', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 17px;
+} 
+
+.list-group .list-group-item{
+	padding: 5px 10px;
+}
+.list-group .list-group-item{
+	font-size: 18px;
+}
+nav {
+	font-size: 15px;
+	background-color: white;
+}
+.logo-none{
+	display: none;
+}
+
+.navbar-custom .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-toggler .navbar-toggler-icon {
+    width: 0; 
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #79849B;
+}
+
+
+
